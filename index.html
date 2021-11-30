@@ -3,66 +3,110 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" conten="width=device-width, initial-scale=1."><!-- позволяет делать сайт адаптивным -->
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style2.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,900&display=swap&subset=cyrillic-ext" rel="stylesheet" />
 		<title>Мой проект</title>
 	</head>
 	<body>
 		<div class="wrapper"><!--элементы лежащие внутри него, при выходе за границы "wrapper'a", не выступали -->
 			<header class="header">
-				<div class="header__container _container">
-					<a href="#" class="header__logo">
-						Gogo Pizza
-					</a>
-					<nav class="header__menu menu">
-						<ul class="menu__list">
-							<li class="menu__item">
-								<a href="#" class="menu__link">Акции</a>
-							</li>
-							<li class="menu__item">
-								<a href="#" class="menu__link">Пицца</a>
-							</li>
-							<li class="menu__item">
-								<a href="#" class="menu__link">Напитки</a>
-							</li>
-							<li class="menu__item">
-								<a href="#" class="menu__link">Создать пиццу</a>
-							</li>
-						</ul>
-					</nav>
-					<a href="" class="header__entrance">
-						Войти
-					</a>
-					<a href="" class="header__basket">
-						<img src="img/basket-full.svg" class="basketFull">
-					</a>
-					<a href="" class="header__price">
-						0 руб.
-					</a>
-					<a href="" class="header__arrow">
-						<img src="img/arrow-down.svg" class="arrowDown">
-					</a>
+				<div class="header__container">
+					<a href="#" class="logo"><img  src="https://user80515.clients-cdnnow.ru/2b-ru/1601564989213_392x320.jpeg" height="80px" alt=""></a>
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a href="#" class="menu__link">Акции</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Пицца</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Напитки</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Создать пиццу</a>
+						</li>
+					</ul>
+					<div class="header__entrance">
+						<a href="" class="header__entrance_button">
+							Войти
+						</a>
+						<a href="" class="header__basket">
+							<img src="img/basket-full.svg" class="basketFull">
+						</a>
+						<a href="" class="header__price">
+							0 руб.
+						</a>
+						<a href="" class="header__arrow">
+							<img src="img/arrow-down.svg" class="arrowDown">
+						</a>
+					</div>
 				</div>
 			</header>
-			
-			<main class="page">
-				<div class="page__main-block main-block">
-					<div class="main-block__container _container">
-						<!-- <div class="main-block__title"></div>
-						<div class="main-block__text">
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis asperiores architecto natus sapiente! Illum temporibus id magni veniam inventore enim, ipsam tempora vel corrupti maiores iste, possimus mollitia nam ab!
-						</div>
-						<div class="main-block_buttons">
-							<a href="#" class="main-block_button"></a>
-							<a href="#" class="main-block_button"></a>
-						</div> -->
-						<div class="page-block__image"><img src="/img/pizza_top1.jpg" alt="no img"></div>
-					</div> 
-					<div class="page-main-block__topbackground"></div>
-				</div>
 
+			<div class="slider">
+				<img src="/img/pizza_top1.jpg" alt="no img">
+			</div>
+			<main class="main__container">
+				<div class="main__center1">
+					<div class="block__pizza">
+						<div class="block__pizza__img"><img src="https://www.citypizza.ru/upload/img/shop/pizza/BORT/resize/%D0%BC%D1%8F%D1%81%D0%BD%D0%BE%D0%B9-%D0%BF%D0%B8%D1%80-%D0%B1%D0%BE%D1%80%D1%82-listThumb.jpg" width="100%" alt=""></div>
+						<div class="block__pizza__title"><h1>Пеперони</h1></div>
+						<div class="block__pizza__subtitle"><h2>Зелень огурец помидор</h2></div>
+						<div class="block__pizza__button__price">
+							<div class="block__pizza__button"><a href="#">Выбрать</a></div>
+							<div class="block__pizza__price">500rub</div>
+						</div>
+						
+					</div>
+					<div class="block__pizza">
+						<div class="block__pizza__img"></div>
+						<div class="block__pizza__title"></div>
+						<div class="block__pizza__subtitle"></div>
+						<div class="block__pizza__button"></div>
+					</div>
+					<div class="block__pizza">
+						<div class="block__pizza__img"></div>
+						<div class="block__pizza__title"></div>
+						<div class="block__pizza__subtitle"></div>
+						<div class="block__pizza__button"></div>
+					</div>
+					<div class="block__pizza">
+						<div class="block__pizza__img"></div>
+						<div class="block__pizza__title"></div>
+						<div class="block__pizza__subtitle"></div>
+						<div class="block__pizza__button"></div>
+					</div>
+				</div>
+				<div class="main__center2">
+					<div class="block__pizza">
+						<div class="block__pizza__img"></div>
+						<div class="block__pizza__title"></div>
+						<div class="block__pizza__subtitle"></div>
+						<div class="block__pizza__button"></div>
+					</div>
+					<div class="block__pizza">
+						<div class="block__pizza__img"></div>
+						<div class="block__pizza__title"></div>
+						<div class="block__pizza__subtitle"></div>
+						<div class="block__pizza__button"></div>
+					</div>
+					<div class="block__pizza">
+						<div class="block__pizza__img"></div>
+						<div class="block__pizza__title"></div>
+						<div class="block__pizza__subtitle"></div>
+						<div class="block__pizza__button"></div>
+					</div>
+					<div class="block__pizza">
+						<div class="block__pizza__img"></div>
+						<div class="block__pizza__title"></div>
+						<div class="block__pizza__subtitle"></div>
+						<div class="block__pizza__button"></div>
+					</div>
+				</div>
 				
 			</main>
+
+
 			<footer class="footer">
 				Я подвал
 			</footer>
