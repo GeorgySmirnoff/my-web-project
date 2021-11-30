@@ -1,8 +1,72 @@
-<html>
+<!DOCTYPE html>
+<html lang='ru'>
 	<head>
-	<title>Мой проект</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" conten="width=device-width, initial-scale=1."><!-- позволяет делать сайт адаптивным -->
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,900&display=swap&subset=cyrillic-ext" rel="stylesheet" />
+		<title>Мой проект</title>
 	</head>
 	<body>
-		<h1>Тут будет мой веб проект</h1>
+		<div class="wrapper"><!--элементы лежащие внутри него, при выходе за границы "wrapper'a", не выступали -->
+			<header class="header">
+				<div class="header__container _container">
+					<a href="#" class="header__logo">
+						Gogo Pizza
+					</a>
+					<nav class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" class="menu__link">Акции</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Пицца</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Напитки</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Создать пиццу</a>
+							</li>
+						</ul>
+					</nav>
+					<a href="" class="header__entrance">
+						Войти
+					</a>
+					<a href="" class="header__basket">
+						<img src="img/basket-full.svg" class="basketFull">
+					</a>
+					<a href="" class="header__price">
+						0 руб.
+					</a>
+					<a href="" class="header__arrow">
+						<img src="img/arrow-down.svg" class="arrowDown">
+					</a>
+				</div>
+			</header>
+			
+			<main class="page">
+				<div class="page__main-block main-block">
+					<div class="main-block__container _container">
+						<!-- <div class="main-block__title"></div>
+						<div class="main-block__text">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis asperiores architecto natus sapiente! Illum temporibus id magni veniam inventore enim, ipsam tempora vel corrupti maiores iste, possimus mollitia nam ab!
+						</div>
+						<div class="main-block_buttons">
+							<a href="#" class="main-block_button"></a>
+							<a href="#" class="main-block_button"></a>
+						</div> -->
+						<div class="page-block__image"><img src="/img/pizza_top1.jpg" alt="no img"></div>
+					</div> 
+					<div class="page-main-block__topbackground"></div>
+				</div>
+
+				
+			</main>
+			<footer class="footer">
+				Я подвал
+			</footer>
+		</div>
+		<script src="js/script.js"></script>
 	</body>
 </html>
